@@ -15,24 +15,18 @@
  *
  */
 
-package org.laokoutech.admin.controller;
+package org.laokoutech.admin.fallback;
 
-import lombok.extern.slf4j.Slf4j;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.laokoutech.admin.feign.UsersApiFeignClient;
 
 /**
  * @author laokou
  */
-@Slf4j
-@RestController
-@RequestMapping("v1/user")
-public class TestApiController {
+public class UsersApiFeignClientFallback implements UsersApiFeignClient {
 
-    @GetMapping("test")
-    public void test() {
-        log.info("userApi被调用");
+    @Override
+    public void test(String id) {
+
     }
 
 }

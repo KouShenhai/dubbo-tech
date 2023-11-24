@@ -5,6 +5,11 @@ spring:
   application:
     name: dubbo-tech-openfeign-admin
   cloud:
+    openfeign:
+      httpclient:
+        enabled: false
+      okhttp:
+        enabled: true
     loadbalancer:
       nacos:
         enabled: true

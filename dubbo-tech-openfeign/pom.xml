@@ -15,6 +15,7 @@
 
     <modules>
         <module>dubbo-tech-openfeign-user</module>
+        <module>dubbo-tech-openfeign-admin</module>
     </modules>
 
 </project>
