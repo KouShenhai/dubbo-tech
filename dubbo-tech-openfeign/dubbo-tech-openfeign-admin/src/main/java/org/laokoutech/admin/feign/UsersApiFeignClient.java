@@ -31,6 +31,6 @@ import org.springframework.cloud.openfeign.FeignClient;
 public interface UsersApiFeignClient {
 
     @RequestLine("GET /test?id={id}")
-//    @Headers("Content-Type: application/json")
+    @Headers("Content-Type: application/json")
     void test(@Param("id") String id);
 }
