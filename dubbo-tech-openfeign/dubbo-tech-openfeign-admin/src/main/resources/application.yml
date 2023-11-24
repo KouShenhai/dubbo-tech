@@ -1,0 +1,10 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: dubbo-tech-openfeign-admin
+  cloud:
+    loadbalancer:
+      nacos:
+        enabled: true

@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: nacos.laokou.org
+        username: nacos
+        password: nacos
+        namespace: a61abd4c-ef96-42a5-99a1-616adee531f3
+        group: DEFAULT_GROUP
