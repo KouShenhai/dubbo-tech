@@ -8,8 +8,6 @@
         <artifactId>dubbo-tech-sample01</artifactId>
         <version>1.0.0</version>
     </parent>
-
     <artifactId>dubbo-tech-sample01-api</artifactId>
-
 
 </project>

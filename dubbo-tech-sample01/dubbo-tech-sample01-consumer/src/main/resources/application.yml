@@ -1,2 +1,22 @@
 server:
   port: 8087
+spring:
+  application:
+    name: dubbo-tech-sample01-consumer
+dubbo:
+  application:
+    name: ${spring.application.name}
+    qos-port: 1112
+  protocol:
+    id: dubbo
+    name: dubbo
+    port: -1
+  registry:
+    address: nacos://nacos.laokou.org:8848
+    username: nacos
+    group: DEFAULT_GROUP
+    password: nacos
+    parameters:
+      namespace: 8ff3ecc2-9c82-4e7a-a7e1-d840a773e126
+      register-consumer-url: true
+    protocol: nacos

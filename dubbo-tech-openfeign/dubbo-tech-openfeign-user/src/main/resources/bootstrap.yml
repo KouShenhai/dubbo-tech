@@ -5,5 +5,5 @@ spring:
         server-addr: nacos.laokou.org
         username: nacos
         password: nacos
-        namespace: a61abd4c-ef96-42a5-99a1-616adee531f3
+        namespace: 8ff3ecc2-9c82-4e7a-a7e1-d840a773e126
         group: DEFAULT_GROUP
